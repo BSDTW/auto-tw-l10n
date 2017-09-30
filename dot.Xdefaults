@@ -21,17 +21,17 @@ rxvt.scrollTtyOutput:          False
 rxvt.scrollBar_right:          True
 rxvt.termName:                 xterm-color
 rxvt.troughColor:              black
-!±z¥i¿ï¾Ü·Q­nªº¦rÅé¤j¤p
-! °ê³ì 16pt, °ê³ì 16pt
+!æ‚¨å¯é¸æ“‡æƒ³è¦çš„å­—é«”å¤§å°
+! åœ‹å–¬ 16pt, åœ‹å–¬ 16pt
 rxvt.font:                     8x16
 rxvt.mfont:                    kc15f
-! Clean 16pt, ¤å¹©²Ó©úÅé16pt
+! Clean 16pt, æ–‡é¼ç´°æ˜é«”16pt
 !rxvt.font:                    -schumacher-clean-medium-r-normal-*-*-160-*-*-c-*-iso8859-1
 !rxvt.mfont:                   -ar-ming-medium-r-normal-*-*-160-*-*-c-*-big5-0
-! Clean 12pt, ¤å¹©²Ó©úÅé12pt
+! Clean 12pt, æ–‡é¼ç´°æ˜é«”12pt
 !rxvt.font:                    -schumacher-clean-medium-r-normal-*-*-120-*-*-c-*-iso8859-1
 !rxvt.mfont:                   -ar-ming-medium-r-normal-*-*-120-*-*-c-*-big5-0
-! °ê³ì 24pt, °ê³ì 24pt
+! åœ‹å–¬ 24pt, åœ‹å–¬ 24pt
 !rxvt.font:                    kc12x24
 !rxvt.mfont:                   kc24f
 ! End ports/chinese/rxvt-big5 and ports/chinese/rxvt configuartion
@@ -54,17 +54,17 @@ aterm.termName:                 xterm-color
 aterm.transparent: True
 aterm.transpscrollbar: True
 aterm.troughColor:              black
-!±z¥i¿ï¾Ü·Q­nªº¦rÅé¤j¤p
-! °ê³ì 16pt, °ê³ì 16pt 
+!æ‚¨å¯é¸æ“‡æƒ³è¦çš„å­—é«”å¤§å°
+! åœ‹å–¬ 16pt, åœ‹å–¬ 16pt 
 aterm.font:                     8x16
 aterm.mfont:                    kc15f
-! Clean 16pt, ¤å¹©²Ó©úÅé16pt
+! Clean 16pt, æ–‡é¼ç´°æ˜é«”16pt
 !aterm.font:                    -schumacher-clean-medium-r-normal-*-*-160-*-*-c-*-iso8859-1
 !aterm.mfont:                   -ar-ming-medium-r-normal-*-*-160-*-*-c-*-big5-0
-! Clean 12pt, ¤å¹©²Ó©úÅé12pt
+! Clean 12pt, æ–‡é¼ç´°æ˜é«”12pt
 !aterm.font:                    -schumacher-clean-medium-r-normal-*-*-120-*-*-c-*-iso8859-1
 !aterm.mfont:                   -ar-ming-medium-r-normal-*-*-120-*-*-c-*-big5-0
-! °ê³ì 24pt, °ê³ì 24pt
+! åœ‹å–¬ 24pt, åœ‹å–¬ 24pt
 !aterm.font:                    kc12x24
 !aterm.mfont:                   kc24f
 ! End ports/chinese/aterm configuartion

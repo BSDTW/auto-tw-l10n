@@ -1,9 +1,9 @@
 auto_view text/html
 
-# ¦pªG±H«Hµ¹ bbs ªºªB¤Í, ¦³¶Ã½X°İÃDªº¸Ü,
+# å¦‚æœå¯„ä¿¡çµ¦ bbs çš„æœ‹å‹, æœ‰äº‚ç¢¼å•é¡Œçš„è©±,
 #set bbsislame=yes
 
-# Åı mutt ¦Û°Ê²q¹ï½s½X(kanru's hack)
+# è®“ mutt è‡ªå‹•çŒœå°ç·¨ç¢¼(kanru's hack)
 # http://www.kanru.info/wiki/index.php?title=Muttrc
 #set strict_mime=no
 #set assumed_charset="big5:gb2312:utf-8"
