@@ -1,0 +1,12 @@
+auto_view text/html
+
+# 如果寄信給 bbs 的朋友, 有亂碼問題的話,
+#set bbsislame=yes
+
+# 讓 mutt 自動猜對編碼(kanru's hack)
+# http://www.kanru.info/wiki/index.php?title=Muttrc
+#set strict_mime=no
+#set assumed_charset="big5:gb2312:utf-8"
+
+bind index <pagedown> next-page
+bind index <pageup> previous-page

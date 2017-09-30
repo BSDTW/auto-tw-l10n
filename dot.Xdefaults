@@ -1,0 +1,97 @@
+! Setting Defaults for all X applications
+.defaultCharset:    		big5
+.inputmethod:			xcin
+.localeCharset*zh_TW.BIG5:      big5
+.multichar_encoding:            big5
+.preeditType:			OverTheSpot
+
+! Begin ports/chinese/rxvt-big5 and ports/chinese/rxvt configuration
+rxvt.borderColor:              black
+rxvt.background:               black
+rxvt.backspacekey:             "^H"
+rxvt.cursorColor:              IndianRed
+rxvt.foreground:               gray98
+rxvt.geometry:                 80x24
+rxvt.inputMethod:              xcin
+rxvt.multibyte_cursor:	       yes
+rxvt.multichar_encoding:       big5
+rxvt.preeditType:	       OverTheSpot
+rxvt.scrollTtyKeypress:        True
+rxvt.scrollTtyOutput:          False
+rxvt.scrollBar_right:          True
+rxvt.termName:                 xterm-color
+rxvt.troughColor:              black
+!您可選擇想要的字體大小
+! 國喬 16pt, 國喬 16pt
+rxvt.font:                     8x16
+rxvt.mfont:                    kc15f
+! Clean 16pt, 文鼎細明體16pt
+!rxvt.font:                    -schumacher-clean-medium-r-normal-*-*-160-*-*-c-*-iso8859-1
+!rxvt.mfont:                   -ar-ming-medium-r-normal-*-*-160-*-*-c-*-big5-0
+! Clean 12pt, 文鼎細明體12pt
+!rxvt.font:                    -schumacher-clean-medium-r-normal-*-*-120-*-*-c-*-iso8859-1
+!rxvt.mfont:                   -ar-ming-medium-r-normal-*-*-120-*-*-c-*-big5-0
+! 國喬 24pt, 國喬 24pt
+!rxvt.font:                    kc12x24
+!rxvt.mfont:                   kc24f
+! End ports/chinese/rxvt-big5 and ports/chinese/rxvt configuartion
+
+! Begin ports/chinese/aterm configuration
+aterm.borderColor:              black
+aterm.background:               black
+aterm.backspacekey:             "^H"
+aterm.cursorColor:              IndianRed
+aterm.foreground:               gray98
+aterm.geometry:                 80x24
+aterm.inputMethod:              xcin
+aterm.multichar_encoding:       big5
+aterm.preeditType: 		OverTheSpot
+aterm.scrollTtyKeypress:        True
+aterm.scrollTtyOutput:          False
+aterm.scrollBar_right:          True
+aterm.shading:			30
+aterm.termName:                 xterm-color
+aterm.transparent: True
+aterm.transpscrollbar: True
+aterm.troughColor:              black
+!您可選擇想要的字體大小
+! 國喬 16pt, 國喬 16pt 
+aterm.font:                     8x16
+aterm.mfont:                    kc15f
+! Clean 16pt, 文鼎細明體16pt
+!aterm.font:                    -schumacher-clean-medium-r-normal-*-*-160-*-*-c-*-iso8859-1
+!aterm.mfont:                   -ar-ming-medium-r-normal-*-*-160-*-*-c-*-big5-0
+! Clean 12pt, 文鼎細明體12pt
+!aterm.font:                    -schumacher-clean-medium-r-normal-*-*-120-*-*-c-*-iso8859-1
+!aterm.mfont:                   -ar-ming-medium-r-normal-*-*-120-*-*-c-*-big5-0
+! 國喬 24pt, 國喬 24pt
+!aterm.font:                    kc12x24
+!aterm.mfont:                   kc24f
+! End ports/chinese/aterm configuartion
+
+! Begin ports/print/xpdf configuration
+xpdf.paperColor: #fcfcfc
+xpdf.background: #b8b8b8
+xpdf.font:  -adobe-helvetica-medium-r-normal-*-*-120-*-*-p-*-iso8859-1
+! must install ports/print/gsfonts or comment follow
+xpdf.t1TimesRoman:           /usr/local/share/ghostscript/fonts/n021003l.pfb
+xpdf.t1TimesItalic:          /usr/local/share/ghostscript/fonts/n021023l.pfb
+xpdf.t1TimesBold:            /usr/local/share/ghostscript/fonts/n021004l.pfb
+xpdf.t1TimesBoldItalic:      /usr/local/share/ghostscript/fonts/n021024l.pfb
+xpdf.t1Helvetica:            /usr/local/share/ghostscript/fonts/n019003l.pfb
+xpdf.t1HelveticaOblique:     /usr/local/share/ghostscript/fonts/n019023l.pfb
+xpdf.t1HelveticaBold:        /usr/local/share/ghostscript/fonts/n019004l.pfb
+xpdf.t1HelveticaBoldOblique: /usr/local/share/ghostscript/fonts/n019024l.pfb
+xpdf.t1Courier:              /usr/local/share/ghostscript/fonts/n022003l.pfb
+xpdf.t1CourierOblique:       /usr/local/share/ghostscript/fonts/n022023l.pfb
+xpdf.t1CourierBold:          /usr/local/share/ghostscript/fonts/n022004l.pfb
+xpdf.t1CourierBoldOblique:   /usr/local/share/ghostscript/fonts/n022024l.pfb
+xpdf.t1Symbol:               /usr/local/share/ghostscript/fonts/s050000l.pfb
+xpdf.t1ZapfDingbats:         /usr/local/share/ghostscript/fonts/d050000l.pfb
+xpdf.t1libControl: high
+! must install ports/print/gsfonts or comment below
+xpdf.freeTypeControl: high
+xpdf.chineseCNSFont: -*-*-medium-r-normal-*-%s-*-*-*-*-*-big5-0
+! End ports/print/xpdf configuration
+
+

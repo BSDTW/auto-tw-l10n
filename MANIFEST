@@ -1,0 +1,16 @@
+   File Name		Description
+-----------------------------------------------------------
+README	         	- A short introduction.
+MANIFEST	 	- A list of files.
+dot.fonts.conf		- X11 fontconfig config file.
+dot.gtkrc		- X11 GTK-based config file.
+dot.Xdefaults		- X11 applications's default action.
+dot.muttrc		- A mail client program(mutt)'s config file.
+dot.vimrc		- A editor(vim)'s config file.
+dot.xinitrc		- When X11 Server start, what it should do.
+dot.bashrc		- A shell(bash)'s config file.
+dot.cshrc		- A shell(csh/tcsh)'s config file.
+dot.inputrc		- For input of 8 bit character.
+dot.emacs		- A editor(Emacs)'s config file.
+make.conf		- Global settings for compile, install software.
+			  Please copy this file tp /etc and modify for your needs.
